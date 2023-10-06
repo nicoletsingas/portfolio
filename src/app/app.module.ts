@@ -20,6 +20,12 @@ import { ProjectsComponent } from './components/projects/projects.component';
     BrowserModule,
     AppRoutingModule
   ],
+  exports: [
+    HeaderComponent,
+    AboutComponent,
+    SkillsComponent,
+    ProjectsComponent,
+  ],
   providers: [],
   bootstrap: [AppComponent]
 })
