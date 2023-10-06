@@ -1,0 +1,25 @@
+.header{
+  width: 100%;
+  max-width: 1500px;
+  height: 100px;
+  background-color: var(--backgroundColor);
+  padding: 10px;
+  position: fixed;
+}
+
+nav {
+  margin-right: 10px;
+}
+
+nav span, nav i {
+  color: var(--primaryColor);
+  font-size: 1.2em;
+}
+
+nav i{
+  font-size: 1.4em;
+}
+
+nav span:hover, nav i:hover {
+  cursor: pointer;
+}
