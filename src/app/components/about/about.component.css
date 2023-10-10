@@ -1,8 +1,85 @@
+.flex{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-column{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .about-container{
+  width: 100%;
+  max-width: 1200px;
+  height: 100%;
   padding-top: 8rem;
+  gap: 40px;
+  padding: 8rem 1rem 1rem;
+}
+
+.gradient-circle{
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background-image: linear-gradient(to bottom, var(--primaryColor), var(--secondaryColor), var(--tertiaryColor));
 }
 
 .gradient-circle img{
-  height: 40px;
-  width: 40px;
+  height: 140px;
+  width: 140px;
+  border-radius: 50%;
+}
+
+.blob-effect{
+  animation: animate 5s ease-in-out infinite alternate;
+  transition: all 1s ease-in-out;
+}
+
+@keyframes animate {
+  0% {
+    border-radius: 57% 43% 46% 54% / 66% 80% 20% 34%;
+  }
+  50%{
+    border-radius: 34% 66% 55% 45% / 26% 41% 59% 74%;
+  }
+  75% {
+    border-radius: 50% 50% 21% 79% / 70% 57% 43% 30%;
+  }
+  100%{
+    border-radius: 78% 22% 58% 42% / 41% 17% 83% 59%;
+  }
+}
+
+.aboutme-container .my-name{
+  margin-bottom: 20px;
+}
+
+.buttons{
+  gap: 40px;
+}
+
+.about-me-text{
+  width: 100%;
+  max-width: 400px;
+}
+
+.gradient-btn{
+  background-image: linear-gradient(to bottom, var(--primaryColor), var(--secondaryColor), var(--tertiaryColor));
+  border: none;
+  height: 45px;
+  padding: 5px;
+  margin-top: 40px;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+.gradient-btn a {
+  text-decoration: none;
+}
+
+.gradient-btn i {
+  color: var(--backgroundWhite);;
 }
