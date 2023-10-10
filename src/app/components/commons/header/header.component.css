@@ -1,25 +1,32 @@
-.header{
-  width: 100%;
-  max-width: 1500px;
-  height: 100px;
-  background-color: var(--backgroundColor);
-  padding: 10px;
-  position: fixed;
+.flex{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
 }
 
-nav {
+.header{
+  width: 100%;
+  max-width: 1200px;
+  height: 80px;
+  background-color: var(--backgroundColor);
+  position: fixed;
+  justify-content: end;
+}
+
+.navigation {
   margin-right: 10px;
 }
 
-nav span, nav i {
+.navigation span, .navigation i {
   color: var(--primaryColor);
-  font-size: 1.2em;
+  font-size: 1em;
 }
 
-nav i{
+.navigation i{
   font-size: 1.4em;
 }
 
-nav span:hover, nav i:hover {
+.navigation span:hover, .navigation i:hover {
   cursor: pointer;
 }
