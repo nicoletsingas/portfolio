@@ -1,4 +1,98 @@
-.project-container-data img{
-  height: 10px;
-  width: 10px;
+.grid{
+  display: grid;
+  grid-template-columns: 250px;
+  gap: 20px;
+}
+
+.flex{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-column{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.myprojects-container{
+  padding: 7rem 1rem 1rem;
+}
+
+.myprojects-container h2{
+  margin-bottom: 50px;
+}
+
+.gradient{
+  background-image: linear-gradient(to bottom, var(--primaryColor), var(--secondaryColor), var(--tertiaryColor));
+  border-radius: 20px;
+  width: 250px;
+  height: 370px;
+}
+
+.project-container-data{
+  background-color: var(--backgroundColor);
+  border-radius: 20px;
+  padding: 10px;
+  width: 242px;
+  height: 360px;
+}
+
+.project-container-data .project-image{
+  width: 220px;
+  height: 100px;
+  border-radius: 10px;
+}
+
+.project-container-data h3{
+  font-weight: 600;
+  font-size: 18px;
+  margin: 10px 0px;
+  align-self: flex-start;
+}
+
+.project-container-data .projects-details{
+  font-weight: 300;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.project-skills-container{
+  gap: 5px;
+  align-self: flex-start;
+}
+
+.project-skills img{
+  width: 20px;
+  height: 20px;
+}
+
+.btns{
+  gap: 20px;
+}
+
+.btn{
+  height: 45px;
+  padding: 5px;
+  border-radius: 10px;
+  width: 100px;
+  font-size: 1em;
+  margin-top: 30px;
+}
+
+.gradient-btn{
+  background-image: linear-gradient(to bottom, var(--primaryColor), var(--secondaryColor), var(--tertiaryColor));
+  border: none;
+}
+
+.white-btn{
+  border: 2px solid var(--backgroundWhite);
+  background-color: var(--backgroundColor);
+}
+
+.gradient-btn a, .white-btn a{
+  text-decoration: none;
+  color: var(--backgroundWhite);
 }
