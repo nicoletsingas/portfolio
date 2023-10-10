@@ -1,5 +1,62 @@
+.grid{
+  display: grid;
+  grid-template-columns: 100px 100px;
+  gap: 20px;
+}
 
-.skill-img{
-  height: 20px;
-  width: 20px;
+.flex{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-column{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.myskills-container {
+  width: 100%;
+  max-width: 1200px;
+  padding-top: 7rem;
+}
+
+.myskills-container h2{
+  margin-bottom: 50px;
+}
+
+.gradient-circle{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-image: linear-gradient(to left, var(--primaryColor), var(--tertiaryColor));
+  background-size: 500% 100%;
+  animation: moveGradient 2s infinite alternate;
+}
+
+@keyframes moveGradient {
+  0% {
+    background-position-x: 0%;
+  }
+  100% {
+    background-position-x: 100%;
+  }
+}
+
+.white-circle{
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  background-color: var(--backgroundWhite);
+}
+
+.skill-container span {
+  margin-top: 5px;
+}
+
+.white-circle .skill-img{
+  height: 45px;
+  width: 45px;
 }
