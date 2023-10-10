@@ -1,9 +1,9 @@
-<section class="myskills-container">
+<section class="myskills-container flex-column">
   <h2>My Skills</h2>
-  <section class="display-grid">
-    <section *ngFor="let skill of skills" class="skill-container">
-      <div class="gradient-circle">
-        <div class="white-circle">
+  <section class="grid">
+    <section *ngFor="let skill of skills" class="skill-container flex-column">
+      <div class="gradient-circle flex">
+        <div class="white-circle flex">
           <img [src]="skill.imgUrl" alt="{{skill.name}}" class="skill-img">
         </div>
       </div>
