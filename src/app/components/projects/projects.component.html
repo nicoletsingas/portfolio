@@ -1,1 +1,27 @@
-<p>projects works!</p>
+<section class="Myprojects-container">
+  <h2>My Projects</h2>
+  <section class="display-grid">
+    <section *ngFor="let project of projects" class="projects-container">
+      <section class="gradient">
+        <div class="project-container-data">
+          <img [src]="project.img" alt="{{project.title}}" class="project-image">
+          <h3>{{ project.title }}</h3>
+          <p>{{ project.details }}</p>
+          <div class="project-skills-container">
+            <div *ngFor="let skill of project.skills" class="project-skills">
+              <img [src]="skill.imgUrl" alt="skills do projeto">
+            </div>
+          </div>
+          <div class="btns">
+            <button class="gradient-btn">
+              <a [href]="project.deploy" target="_blank">Deploy</a>
+            </button>
+            <button class="white-btn">
+              <a [href]="project.code" target="_blank">Code</a>
+            </button>
+          </div>
+        </div>
+      </section>
+    </section>
+  </section>
+</section>
