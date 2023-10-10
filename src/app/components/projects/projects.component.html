@@ -1,22 +1,22 @@
-<section class="Myprojects-container">
+<section class="myprojects-container flex-column">
   <h2>My Projects</h2>
-  <section class="display-grid">
+  <section class="grid">
     <section *ngFor="let project of projects" class="projects-container">
-      <section class="gradient">
-        <div class="project-container-data">
+      <section class="gradient flex">
+        <div class="project-container-data flex-column">
           <img [src]="project.img" alt="{{project.title}}" class="project-image">
           <h3>{{ project.title }}</h3>
-          <p>{{ project.details }}</p>
-          <div class="project-skills-container">
-            <div *ngFor="let skill of project.skills" class="project-skills">
+          <p class="projects-details">{{ project.details }}</p>
+          <div class="flex project-skills-container">
+            <div *ngFor="let skill of project.skills" class="project-skills flex">
               <img [src]="skill.imgUrl" alt="skills do projeto">
             </div>
           </div>
-          <div class="btns">
-            <button class="gradient-btn">
+          <div class="btns flex">
+            <button class="btn gradient-btn">
               <a [href]="project.deploy" target="_blank">Deploy</a>
             </button>
-            <button class="white-btn">
+            <button class="btn white-btn">
               <a [href]="project.code" target="_blank">Code</a>
             </button>
           </div>

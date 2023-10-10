@@ -65,7 +65,7 @@ export const projectsData = [
   },
   {
     img: '../../../assets/socialnetwork.png',
-    title: 'Social Network <Gamee>',
+    title: 'Social Network',
     details: 'It is a gamer Social Network, where the user can register, publish a post and like a friends post.',
     skills: [
       {
