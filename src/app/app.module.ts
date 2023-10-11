@@ -7,6 +7,7 @@ import { HeaderComponent } from './components/commons/header/header.component';
 import { AboutComponent } from './components/about/about.component';
 import { SkillsComponent } from './components/skills/skills.component';
 import { ProjectsComponent } from './components/projects/projects.component';
+import { FooterComponent } from './components/commons/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { ProjectsComponent } from './components/projects/projects.component';
     HeaderComponent,
     AboutComponent,
     SkillsComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
@@ -25,6 +27,7 @@ import { ProjectsComponent } from './components/projects/projects.component';
     AboutComponent,
     SkillsComponent,
     ProjectsComponent,
+    FooterComponent,
   ],
   providers: [],
   bootstrap: [AppComponent]
