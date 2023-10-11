@@ -134,6 +134,10 @@
 }
 
 @media screen and (min-width: 1200px) {
+  .about-container{
+    gap: 300px;
+  }
+  
   .gradient-circle{
     height: 400px;
     width: 400px;
