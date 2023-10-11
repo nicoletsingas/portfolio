@@ -1,7 +1,7 @@
 .grid{
   display: grid;
   grid-template-columns: 250px;
-  gap: 40px;
+  gap: 50px;
 }
 
 .flex{
@@ -18,11 +18,11 @@
 }
 
 .myprojects-container{
-  padding: 7rem 1rem 1rem;
+  padding: 8rem 1rem 3rem;
 }
 
 .myprojects-container h2{
-  margin-bottom: 50px;
+  margin-bottom: 5rem;
 }
 
 .gradient{
@@ -95,4 +95,48 @@
 .gradient-btn a, .white-btn a{
   text-decoration: none;
   color: var(--backgroundWhite);
+}
+
+@media screen and (min-width: 750px) {
+  .grid{
+    grid-template-columns: 250px 250px;
+    gap: 50px;
+  }
+
+  .myprojects-container h2{
+    margin-bottom: 6rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .grid{
+    grid-template-columns: 250px 250px 250px;
+    gap: 60px;
+  }
+
+  .myprojects-container h2{
+    font-size: 2em;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .grid{
+    grid-template-columns: 260px 260px 260px 260px;
+    gap: 60px;
+  }
+
+  .gradient{
+    width: 260px;
+    height: 370px;
+  }
+  
+  .project-container-data{
+    width: 252px;
+    height: 360px;
+  }
+  
+  .project-container-data .project-image{
+    width: 220px;
+    height: 100px;
+  }
 }

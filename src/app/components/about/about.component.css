@@ -15,9 +15,8 @@
   width: 100%;
   max-width: 1500px;
   height: 100%;
-  padding-top: 7rem;
   gap: 40px;
-  padding: 8rem 1rem 1rem;
+  padding: 8rem 1rem 3rem;
 }
 
 .gradient-circle{
@@ -110,5 +109,42 @@
 
   .gradient-btn{
     padding: 7px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .about-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+    padding: 10rem 0rem 7rem;
+  }
+
+  .gradient-circle{
+    height: 300px;
+    width: 300px;
+  }
+  
+  .gradient-circle img{
+    height: 290px;
+    width: 290px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .gradient-circle{
+    height: 400px;
+    width: 400px;
+  }
+  
+  .gradient-circle img{
+    height: 390px;
+    width: 390px;
+  }
+
+  .aboutme-container .my-name{
+    font-size: 1.5em;
   }
 }

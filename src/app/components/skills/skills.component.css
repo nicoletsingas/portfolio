@@ -1,7 +1,7 @@
 .grid{
   display: grid;
   grid-template-columns: 100px 100px;
-  gap: 20px;
+  gap: 40px;
 }
 
 .flex{
@@ -20,11 +20,11 @@
 .myskills-container {
   width: 100%;
   max-width: 1200px;
-  padding-top: 7rem;
+  padding: 8rem 1rem 3rem;
 }
 
 .myskills-container h2{
-  margin-bottom: 50px;
+  margin-bottom: 5rem;
 }
 
 .gradient-circle{
@@ -56,7 +56,7 @@
   margin-top: 5px;
 }
 
-.white-circle .skill-img{
+.skill-img{
   height: 45px;
   width: 45px;
 }
@@ -64,5 +64,55 @@
 @media screen and (min-width: 600px) {
   .grid{
     grid-template-columns: 100px 100px 100px;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .grid{
+    grid-template-columns: 100px 100px 100px 100px;
+  }
+
+  .myskills-container h2{
+    margin-bottom: 6rem;
+  }
+
+  .gradient-circle{
+    width: 95px;
+    height: 95px;
+  }
+  
+  .white-circle{
+    height: 85px;
+    width: 85px;
+  }
+
+  .skill-img{
+    height: 55px;
+    width: 55px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .grid{
+    grid-template-columns: 150px 150px 150px 150px 150px;
+  }
+
+  .myskills-container h2{
+    font-size: 2em;
+  }
+
+  .gradient-circle{
+    width: 120px;
+    height: 120px;
+  }
+  
+  .white-circle{
+    height: 110px;
+    width: 110px;
+  }
+
+  .skill-img{
+    height: 70px;
+    width: 70px;
   }
 }
