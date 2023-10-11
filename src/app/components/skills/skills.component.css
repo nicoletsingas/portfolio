@@ -95,6 +95,7 @@
 @media screen and (min-width: 992px) {
   .grid{
     grid-template-columns: 150px 150px 150px 150px 150px;
+    gap: 50px;
   }
 
   .myskills-container h2{
@@ -115,4 +116,11 @@
     height: 70px;
     width: 70px;
   }
+}
+
+@media screen and (min-width: 1200px) {
+  .grid{
+    grid-template-columns: 150px 150px 150px 150px 150px 150px;
+  }
+
 }

@@ -20,8 +20,8 @@ export const skillsData = [
     imgUrl: '../../../assets/typescript.svg',
   },
   {
-    name: 'Bootstrap',
-    imgUrl: '../../../assets/bootstrap.svg',
+    name: 'Jest',
+    imgUrl: '../../../assets/jest.svg',
   },
   {
     name: 'NodeJS',
@@ -32,11 +32,19 @@ export const skillsData = [
     imgUrl: '../../../assets/mongodb.svg',
   },
   {
+    name: 'GIT',
+    imgUrl: '../../../assets/git.svg',
+  },
+  {
+    name: 'Vite',
+    imgUrl: '../../../assets/vite.png',
+  },
+  {
     name: 'Insomnia',
     imgUrl: '../../../assets/insomnia.png',
   },
   {
-    name: 'GIT',
-    imgUrl: '../../../assets/git.svg',
+    name: 'Bootstrap',
+    imgUrl: '../../../assets/bootstrap.svg',
   },
 ];
