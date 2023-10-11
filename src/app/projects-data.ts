@@ -85,7 +85,7 @@ export const projectsData = [
         imgUrl: skillsData.find(skill => skill.name === 'GIT')?.imgUrl || '',
       },
     ],
-    deploy: 'https://burguer-cooked.vercel.app/',
+    deploy: 'https://gamee-97311.web.app/',
     code: 'https://github.com/nicoletsingas/SAP010-social-network',
   },
   {
