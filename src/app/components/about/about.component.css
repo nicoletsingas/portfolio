@@ -13,7 +13,7 @@
 
 .about-container{
   width: 100%;
-  max-width: 1200px;
+  max-width: 1500px;
   height: 100%;
   padding-top: 7rem;
   gap: 40px;
@@ -66,6 +66,15 @@
   max-width: 400px;
 }
 
+.link-lab{
+  text-decoration: none;
+  color: var(--primaryColor);
+}
+
+.link-lab:hover{
+  cursor: pointer;
+}
+
 .gradient-btn{
   background-image: linear-gradient(to bottom, var(--primaryColor), var(--secondaryColor), var(--tertiaryColor));
   border: none;
@@ -82,4 +91,24 @@
 
 .gradient-btn i {
   color: var(--backgroundWhite);;
+}
+
+@media screen and (min-width: 600px) {
+  .gradient-circle{
+    height: 180px;
+    width: 180px;
+  }
+  
+  .gradient-circle img{
+    height: 170px;
+    width: 170px;
+  }
+
+  .about-me-text, .gradient-btn{
+    font-size: 1.1em;
+  }
+
+  .gradient-btn{
+    padding: 7px;
+  }
 }
