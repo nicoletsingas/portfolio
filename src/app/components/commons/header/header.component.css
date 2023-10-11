@@ -6,11 +6,14 @@
 }
 
 .header{
-  width: 100%;
-  max-width: 1200px;
+  width: 100vw;
+  max-width: 1500px;
   height: 80px;
   background-color: var(--backgroundColor);
   position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
   justify-content: end;
 }
 
@@ -29,4 +32,10 @@
 
 .navigation span:hover, .navigation i:hover {
   cursor: pointer;
+}
+
+@media screen and (min-width: 600px) {
+  .navigation span, .navigation i {
+    font-size: 1.2em;
+  }
 }

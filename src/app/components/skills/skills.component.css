@@ -60,3 +60,9 @@
   height: 45px;
   width: 45px;
 }
+
+@media screen and (min-width: 600px) {
+  .grid{
+    grid-template-columns: 100px 100px 100px;
+  }
+}
