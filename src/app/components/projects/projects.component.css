@@ -29,8 +29,8 @@
 .gradient{
   background-image: linear-gradient(to bottom, var(--primaryColor), var(--secondaryColor), var(--tertiaryColor));
   border-radius: 20px;
-  width: 250px;
-  height: 370px;
+  width: 246px;
+  height: 366px;
 }
 
 .project-container-data{
@@ -128,8 +128,7 @@
   }
 
   .gradient{
-    width: 260px;
-    height: 370px;
+    width: 256px;
   }
   
   .project-container-data{

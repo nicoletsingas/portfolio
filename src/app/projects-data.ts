@@ -8,27 +8,27 @@ export const projectsData = [
     skills: [
       {
         name: 'Angular',
-        imgUrl: skillsData.find(skill => skill.name === 'Angular')?.imgUrl || '',
+        imgUrl: skillsData.find(skill => skill.name === '#Angular')?.imgUrl || '',
       },
       {
         name: 'TypeScript',
-        imgUrl: skillsData.find(skill => skill.name === 'TypeScript')?.imgUrl || '',
+        imgUrl: skillsData.find(skill => skill.name === '#TypeScript')?.imgUrl || '',
       },
       {
         name: 'HTML',
-        imgUrl: skillsData.find(skill => skill.name === 'HTML')?.imgUrl || '',
+        imgUrl: skillsData.find(skill => skill.name === '#HTML')?.imgUrl || '',
       },
       {
         name: 'CSS',
-        imgUrl: skillsData.find(skill => skill.name === 'CSS')?.imgUrl || '',
+        imgUrl: skillsData.find(skill => skill.name === '#CSS')?.imgUrl || '',
       },
       {
         name: 'Insomnia',
-        imgUrl: skillsData.find(skill => skill.name === 'Insomnia')?.imgUrl || '',
+        imgUrl: skillsData.find(skill => skill.name === '#Insomnia')?.imgUrl || '',
       },
       {
         name: 'GIT',
-        imgUrl: skillsData.find(skill => skill.name === 'GIT')?.imgUrl || '',
+        imgUrl: skillsData.find(skill => skill.name === '#GIT')?.imgUrl || '',
       },
     ],
     deploy: 'https://burguer-cooked.vercel.app/',
@@ -41,23 +41,23 @@ export const projectsData = [
     skills: [
       {
         name: 'JavaScript',
-        imgUrl: skillsData.find(skill => skill.name === 'JavaScript')?.imgUrl || '',
+        imgUrl: skillsData.find(skill => skill.name === '#JavaScript')?.imgUrl || '',
       },
       {
         name: 'NodeJS',
-        imgUrl: skillsData.find(skill => skill.name === 'NodeJS')?.imgUrl || '',
+        imgUrl: skillsData.find(skill => skill.name === '#NodeJS')?.imgUrl || '',
       },
       {
         name: 'MongoDB',
-        imgUrl: skillsData.find(skill => skill.name === 'MongoDB')?.imgUrl || '',
+        imgUrl: skillsData.find(skill => skill.name === '#MongoDB')?.imgUrl || '',
       },
       {
         name: 'Insomnia',
-        imgUrl: skillsData.find(skill => skill.name === 'Insomnia')?.imgUrl || '',
+        imgUrl: skillsData.find(skill => skill.name === '#Insomnia')?.imgUrl || '',
       },
       {
         name: 'GIT',
-        imgUrl: skillsData.find(skill => skill.name === 'GIT')?.imgUrl || '',
+        imgUrl: skillsData.find(skill => skill.name === '#GIT')?.imgUrl || '',
       },
     ],
     deploy: 'https://sap-010-burger-queen-api-seven.vercel.app/',
@@ -70,19 +70,19 @@ export const projectsData = [
     skills: [
       {
         name: 'JavaScript',
-        imgUrl: skillsData.find(skill => skill.name === 'JavaScript')?.imgUrl || '',
+        imgUrl: skillsData.find(skill => skill.name === '#JavaScript')?.imgUrl || '',
       },
       {
         name: 'HTML',
-        imgUrl: skillsData.find(skill => skill.name === 'HTML')?.imgUrl || '',
+        imgUrl: skillsData.find(skill => skill.name === '#HTML')?.imgUrl || '',
       },
       {
         name: 'CSS',
-        imgUrl: skillsData.find(skill => skill.name === 'CSS')?.imgUrl || '',
+        imgUrl: skillsData.find(skill => skill.name === '#CSS')?.imgUrl || '',
       },
       {
         name: 'GIT',
-        imgUrl: skillsData.find(skill => skill.name === 'GIT')?.imgUrl || '',
+        imgUrl: skillsData.find(skill => skill.name === '#GIT')?.imgUrl || '',
       },
     ],
     deploy: 'https://gamee-97311.web.app/',
@@ -95,15 +95,15 @@ export const projectsData = [
     skills: [
       {
         name: 'JavaScript',
-        imgUrl: skillsData.find(skill => skill.name === 'JavaScript')?.imgUrl || '',
+        imgUrl: skillsData.find(skill => skill.name === '#JavaScript')?.imgUrl || '',
       },
       {
         name: 'NodeJS',
-        imgUrl: skillsData.find(skill => skill.name === 'NodeJS')?.imgUrl || '',
+        imgUrl: skillsData.find(skill => skill.name === '#NodeJS')?.imgUrl || '',
       },
       {
         name: 'GIT',
-        imgUrl: skillsData.find(skill => skill.name === 'GIT')?.imgUrl || '',
+        imgUrl: skillsData.find(skill => skill.name === '#GIT')?.imgUrl || '',
       },
     ],
     deploy: 'https://github.com/nicoletsingas/SAP010-md-links',
@@ -116,19 +116,19 @@ export const projectsData = [
     skills: [
       {
         name: 'JavaScript',
-        imgUrl: skillsData.find(skill => skill.name === 'JavaScript')?.imgUrl || '',
+        imgUrl: skillsData.find(skill => skill.name === '#JavaScript')?.imgUrl || '',
       },
       {
         name: 'HTML',
-        imgUrl: skillsData.find(skill => skill.name === 'HTML')?.imgUrl || '',
+        imgUrl: skillsData.find(skill => skill.name === '#HTML')?.imgUrl || '',
       },
       {
         name: 'CSS',
-        imgUrl: skillsData.find(skill => skill.name === 'CSS')?.imgUrl || '',
+        imgUrl: skillsData.find(skill => skill.name === '#CSS')?.imgUrl || '',
       },
       {
         name: 'GIT',
-        imgUrl: skillsData.find(skill => skill.name === 'GIT')?.imgUrl || '',
+        imgUrl: skillsData.find(skill => skill.name === '#GIT')?.imgUrl || '',
       },
     ],
     deploy: 'https://nicoletsingas.github.io/SAP010-data-lovers/',
@@ -141,19 +141,19 @@ export const projectsData = [
     skills: [
       {
         name: 'JavaScript',
-        imgUrl: skillsData.find(skill => skill.name === 'JavaScript')?.imgUrl || '',
+        imgUrl: skillsData.find(skill => skill.name === '#JavaScript')?.imgUrl || '',
       },
       {
         name: 'HTML',
-        imgUrl: skillsData.find(skill => skill.name === 'HTML')?.imgUrl || '',
+        imgUrl: skillsData.find(skill => skill.name === '#HTML')?.imgUrl || '',
       },
       {
         name: 'CSS',
-        imgUrl: skillsData.find(skill => skill.name === 'CSS')?.imgUrl || '',
+        imgUrl: skillsData.find(skill => skill.name === '#CSS')?.imgUrl || '',
       },
       {
         name: 'GIT',
-        imgUrl: skillsData.find(skill => skill.name === 'GIT')?.imgUrl || '',
+        imgUrl: skillsData.find(skill => skill.name === '#GIT')?.imgUrl || '',
       },
     ],
     deploy: 'https://nicoletsingas.github.io/SAP010-card-validation/',
@@ -166,19 +166,19 @@ export const projectsData = [
     skills: [
       {
         name: 'JavaScript',
-        imgUrl: skillsData.find(skill => skill.name === 'JavaScript')?.imgUrl || '',
+        imgUrl: skillsData.find(skill => skill.name === '#JavaScript')?.imgUrl || '',
       },
       {
         name: 'HTML',
-        imgUrl: skillsData.find(skill => skill.name === 'HTML')?.imgUrl || '',
+        imgUrl: skillsData.find(skill => skill.name === '#HTML')?.imgUrl || '',
       },
       {
         name: 'CSS',
-        imgUrl: skillsData.find(skill => skill.name === 'CSS')?.imgUrl || '',
+        imgUrl: skillsData.find(skill => skill.name === '#CSS')?.imgUrl || '',
       },
       {
         name: 'GIT',
-        imgUrl: skillsData.find(skill => skill.name === 'GIT')?.imgUrl || '',
+        imgUrl: skillsData.find(skill => skill.name === '#GIT')?.imgUrl || '',
       },
     ],
     deploy: 'https://nicoletsingas.github.io/Trivia-Nic-Helo/',
@@ -191,19 +191,19 @@ export const projectsData = [
     skills: [
       {
         name: 'JavaScript',
-        imgUrl: skillsData.find(skill => skill.name === 'JavaScript')?.imgUrl || '',
+        imgUrl: skillsData.find(skill => skill.name === '#JavaScript')?.imgUrl || '',
       },
       {
         name: 'HTML',
-        imgUrl: skillsData.find(skill => skill.name === 'HTML')?.imgUrl || '',
+        imgUrl: skillsData.find(skill => skill.name === '#HTML')?.imgUrl || '',
       },
       {
         name: 'CSS',
-        imgUrl: skillsData.find(skill => skill.name === 'CSS')?.imgUrl || '',
+        imgUrl: skillsData.find(skill => skill.name === '#CSS')?.imgUrl || '',
       },
       {
         name: 'GIT',
-        imgUrl: skillsData.find(skill => skill.name === 'GIT')?.imgUrl || '',
+        imgUrl: skillsData.find(skill => skill.name === '#GIT')?.imgUrl || '',
       },
     ],
     deploy: 'https://nicoletsingas.github.io/FAQ-card/',
@@ -216,19 +216,19 @@ export const projectsData = [
     skills: [
       {
         name: 'JavaScript',
-        imgUrl: skillsData.find(skill => skill.name === 'JavaScript')?.imgUrl || '',
+        imgUrl: skillsData.find(skill => skill.name === '#JavaScript')?.imgUrl || '',
       },
       {
         name: 'HTML',
-        imgUrl: skillsData.find(skill => skill.name === 'HTML')?.imgUrl || '',
+        imgUrl: skillsData.find(skill => skill.name === '#HTML')?.imgUrl || '',
       },
       {
         name: 'CSS',
-        imgUrl: skillsData.find(skill => skill.name === 'CSS')?.imgUrl || '',
+        imgUrl: skillsData.find(skill => skill.name === '#CSS')?.imgUrl || '',
       },
       {
         name: 'GIT',
-        imgUrl: skillsData.find(skill => skill.name === 'GIT')?.imgUrl || '',
+        imgUrl: skillsData.find(skill => skill.name === '#GIT')?.imgUrl || '',
       },
     ],
     deploy: 'https://nicoletsingas.github.io/Projeto-Calculadora/',

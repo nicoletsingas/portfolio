@@ -1,50 +1,73 @@
 export const skillsData = [
   {
-    name: 'HTML',
+    name: '#HTML',
     imgUrl: '../../../assets/html.svg',
+    color: '#f16529',
   },
   {
-    name: 'CSS',
+    name: '#CSS',
     imgUrl: '../../../assets/css.svg',
+    color: '#7fd5eb',
   },
   {
-    name: 'JavaScript',
+    name: '#JavaScript',
     imgUrl: '../../../assets/javascript.svg',
+    color: '#f5b552',
   },
   {
-    name: 'Angular',
-    imgUrl: '../../../assets/angular.svg',
-  },
-  {
-    name: 'TypeScript',
-    imgUrl: '../../../assets/typescript.svg',
-  },
-  {
-    name: 'Jest',
+    name: '#Jest',
     imgUrl: '../../../assets/jest.svg',
+    color: '#ffffff',
   },
   {
-    name: 'NodeJS',
-    imgUrl: '../../../assets/nodejs.svg',
-  },
-  {
-    name: 'MongoDB',
-    imgUrl: '../../../assets/mongodb.svg',
-  },
-  {
-    name: 'GIT',
-    imgUrl: '../../../assets/git.svg',
-  },
-  {
-    name: 'Vite',
+    name: '#Vite',
     imgUrl: '../../../assets/vite.png',
+    color: '#ffffff',
   },
   {
-    name: 'Insomnia',
-    imgUrl: '../../../assets/insomnia.png',
+    name: '#Angular',
+    imgUrl: '../../../assets/angular.svg',
+    color: '#ce3633',
   },
   {
-    name: 'Bootstrap',
+    name: '#Rest-API',
+    imgUrl: '../../../assets/api.png',
+    color: '#ffffff',
+  },
+  {
+    name: '#GIT',
+    imgUrl: '../../../assets/git.svg',
+    color: '#f25b3f',
+  },
+  {
+    name: '#TypeScript',
+    imgUrl: '../../../assets/typescript.svg',
+    color: '#54c5f8',
+  },
+  {
+    name: '#NodeJS',
+    imgUrl: '../../../assets/nodejs.svg',
+    color: '#66b35d',
+  },
+  {
+    name: '#Bootstrap',
     imgUrl: '../../../assets/bootstrap.svg',
+    color: '#ffffff',
+  },
+
+  {
+    name: '#JSON',
+    imgUrl: '../../../assets/json.png',
+    color: '#ffffff',
+  },
+  {
+    name: '#MongoDB',
+    imgUrl: '../../../assets/mongodb.svg',
+    color: '#41b883',
+  },
+  {
+    name: '#Insomnia',
+    imgUrl: '../../../assets/insomnia.png',
+    color: '#ffffff',
   },
 ];

@@ -2,12 +2,10 @@
   <h2>My Skills</h2>
   <section class="grid">
     <section *ngFor="let skill of skills" class="skill-container flex-column">
-      <div class="gradient-circle flex">
-        <div class="white-circle flex">
-          <img [src]="skill.imgUrl" alt="{{skill.name}}" class="skill-img">
-        </div>
+      <div class="skill-background flex" [style.background-color]="getSkilColor(skill.name)">
+        <img [src]="skill.imgUrl" alt="{{skill.name}}" class="skill-img">
+        <span>{{skill.name}}</span>
       </div>
-      <span>{{ skill.name}} </span>
     </section>
   </section>
 </section>

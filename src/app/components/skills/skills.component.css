@@ -1,7 +1,7 @@
 .grid{
   display: grid;
-  grid-template-columns: 100px 100px;
-  gap: 40px;
+  grid-template-columns: 130px 130px;
+  gap: 30px;
 }
 
 .flex{
@@ -27,13 +27,15 @@
   margin-bottom: 5rem;
 }
 
-.gradient-circle{
-  width: 80px;
-  height: 80px;
-  border-radius: 50%;
-  background-image: linear-gradient(to left, var(--primaryColor), var(--tertiaryColor));
-  background-size: 500% 100%;
-  animation: moveGradient 2s infinite alternate;
+.skill-background{
+  width: 140px;
+  border-radius: 5px;
+  gap: 10px;
+  padding: .5rem;
+}
+
+.skill-background span {
+  color: #000;
 }
 
 @keyframes moveGradient {
@@ -45,82 +47,63 @@
   }
 }
 
-.white-circle{
-  height: 70px;
-  width: 70px;
-  border-radius: 50%;
-  background-color: var(--backgroundWhite);
-}
-
-.skill-container span {
-  margin-top: 5px;
-}
-
 .skill-img{
-  height: 45px;
-  width: 45px;
+  height: 25px;
 }
 
 @media screen and (min-width: 600px) {
   .grid{
-    grid-template-columns: 100px 100px 100px;
+    grid-template-columns: 160px 160px 160px;
+  }
+
+  .skill-background {
+    width: 160px;
+  }
+
+  .skill-background span{
+    font-size: 1.2em;
   }
 }
 
 @media screen and (min-width: 750px) {
   .grid{
-    grid-template-columns: 100px 100px 100px 100px;
+    grid-template-columns: 160px 160px 160px 160px;
   }
 
   .myskills-container h2{
     margin-bottom: 6rem;
   }
 
-  .gradient-circle{
-    width: 95px;
-    height: 95px;
-  }
-  
-  .white-circle{
-    height: 85px;
-    width: 85px;
+  .skill-background {
+    width: 175px;
   }
 
   .skill-img{
-    height: 55px;
-    width: 55px;
+    height: 35px;
   }
 }
 
 @media screen and (min-width: 992px) {
   .grid{
-    grid-template-columns: 150px 150px 150px 150px 150px;
-    gap: 50px;
+    grid-template-columns: 185px 185px 185px 185px;
   }
 
   .myskills-container h2{
     font-size: 2em;
   }
 
-  .gradient-circle{
-    width: 120px;
-    height: 120px;
-  }
-  
-  .white-circle{
-    height: 110px;
-    width: 110px;
+  .skill-background {
+    width: 185px;
   }
 
   .skill-img{
-    height: 70px;
-    width: 70px;
+    height: 42px;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .grid{
-    grid-template-columns: 150px 150px 150px 150px 150px 150px;
+    grid-template-columns: 185px 185px 185px 185px 185px;
+    gap: 20px;
   }
-
 }
