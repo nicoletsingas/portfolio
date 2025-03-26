@@ -15,14 +15,14 @@ export const skillsData = [
     color: '#f5b552',
   },
   {
-    name: '#Jest',
-    imgUrl: '../../../assets/jest.svg',
-    color: '#ffffff',
+    name: '#Next.js',
+    imgUrl: '../../../assets/nextjs-icon.png',
+    color: '#FFFFFF',
   },
   {
-    name: '#Vite',
-    imgUrl: '../../../assets/vite.png',
-    color: '#ffffff',
+    name: '#React',
+    imgUrl: '../../../assets/React.png',
+    color: '#0077b6',
   },
   {
     name: '#Angular',
@@ -30,14 +30,14 @@ export const skillsData = [
     color: '#ce3633',
   },
   {
-    name: '#Rest-API',
-    imgUrl: '../../../assets/api.png',
+    name: '#Jest',
+    imgUrl: '../../../assets/jest.svg',
     color: '#ffffff',
   },
   {
-    name: '#GIT',
-    imgUrl: '../../../assets/git.svg',
-    color: '#f25b3f',
+    name: '#HTMX',
+    imgUrl: '../../../assets/htmx.png',
+    color: '#ffffff',
   },
   {
     name: '#TypeScript',
@@ -45,14 +45,34 @@ export const skillsData = [
     color: '#54c5f8',
   },
   {
+    name: '#MongoDB',
+    imgUrl: '../../../assets/mongodb.svg',
+    color: '#41b883',
+  },
+  {
+    name: '#Rest-API',
+    imgUrl: '../../../assets/api.png',
+    color: '#ffffff',
+  },
+  {
+    name: '#Django',
+    imgUrl: '../../../assets/django-icon.svg',
+    color: '#32ac7b',
+  },
+  {
+    name: '#GIT',
+    imgUrl: '../../../assets/git.svg',
+    color: '#f25b3f',
+  },
+  {
     name: '#NodeJS',
     imgUrl: '../../../assets/nodejs.svg',
     color: '#66b35d',
   },
   {
-    name: '#Bootstrap',
-    imgUrl: '../../../assets/bootstrap.svg',
-    color: '#ffffff',
+    name: '#Tailwind',
+    imgUrl: '../../../assets/Tailwind.png',
+    color: '#90e0ef',
   },
 
   {
@@ -61,9 +81,9 @@ export const skillsData = [
     color: '#ffffff',
   },
   {
-    name: '#MongoDB',
-    imgUrl: '../../../assets/mongodb.svg',
-    color: '#41b883',
+    name: '#Vite',
+    imgUrl: '../../../assets/vite.png',
+    color: '#be95be',
   },
   {
     name: '#Insomnia',
