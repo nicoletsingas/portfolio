@@ -88,6 +88,6 @@ export const skillsData = [
   {
     name: '#Insomnia',
     imgUrl: '../../../assets/insomnia.png',
-    color: '#ffffff',
+    color: '#ffffff', 
   },
 ];
