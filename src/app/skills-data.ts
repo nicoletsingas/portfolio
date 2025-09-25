@@ -74,7 +74,6 @@ export const skillsData = [
     imgUrl: '../../../assets/Tailwind.png',
     color: '#90e0ef',
   },
-
   {
     name: '#JSON',
     imgUrl: '../../../assets/json.png',
