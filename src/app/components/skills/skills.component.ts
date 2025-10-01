@@ -11,7 +11,7 @@ export class SkillsComponent {
 
   getSkilColor(skillName: string){
     const skill = this.skills.find(skill => skill.name === skillName);
-    return skill ? skill.color: '#FFFFFF';
+    return skill ? skill.color : '#FFFFFF';
   };
   
 }
