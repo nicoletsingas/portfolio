@@ -15,7 +15,7 @@ export const skillsData = [
     color: '#f5b552',
   },
   {
-    name: '#Next.js',
+    name: '#Next',
     imgUrl: '../../../assets/nextjs-icon.png',
     color: '#FFFFFF',
   },
@@ -26,8 +26,23 @@ export const skillsData = [
   },
   {
     name: '#Angular',
-    imgUrl: '../../../assets/angular.svg',
-    color: '#ce3633',
+    imgUrl: '../../../assets/angular_gradient.png',
+    color: '#FFFFFF',
+  },
+  {
+    name: '#TypeScript',
+    imgUrl: '../../../assets/typescript.svg',
+    color: '#007ad4',
+  },
+  {
+    name: '#SCSS',
+    imgUrl: '../../../assets/scss.png',
+    color: '#cb6795',
+  },
+  {
+    name: '#Tailwind',
+    imgUrl: '../../../assets/Tailwind.png',
+    color: '#90e0ef',
   },
   {
     name: '#Jest',
@@ -35,14 +50,15 @@ export const skillsData = [
     color: '#ffffff',
   },
   {
+    name: '#NodeJS',
+    imgUrl: '../../../assets/nodejs.svg',
+    color: '#66b35d',
+  },
+
+  {
     name: '#HTMX',
     imgUrl: '../../../assets/htmx.png',
     color: '#ffffff',
-  },
-  {
-    name: '#TypeScript',
-    imgUrl: '../../../assets/typescript.svg',
-    color: '#54c5f8',
   },
   {
     name: '#MongoDB',
@@ -65,16 +81,6 @@ export const skillsData = [
     color: '#f25b3f',
   },
   {
-    name: '#NodeJS',
-    imgUrl: '../../../assets/nodejs.svg',
-    color: '#66b35d',
-  },
-  {
-    name: '#Tailwind',
-    imgUrl: '../../../assets/Tailwind.png',
-    color: '#90e0ef',
-  },
-  {
     name: '#JSON',
     imgUrl: '../../../assets/json.png',
     color: '#ffffff',
@@ -82,11 +88,11 @@ export const skillsData = [
   {
     name: '#Vite',
     imgUrl: '../../../assets/vite.png',
-    color: '#be95be',
+    color: '#c8b6ff',
   },
   {
     name: '#Insomnia',
     imgUrl: '../../../assets/insomnia.png',
-    color: '#ffffff', 
+    color: '#ffffff',
   },
 ];
